@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+     
+}
+body {
+   background-color: #fcfcfc; /* غيّر اللون حسب الاختيار */
+    color: rgb(13, 13, 13);
+
+}
+
+.container-fluid{
+   background-color: #ffffff; /* غيّر اللون حسب الاختيار */
+   
+
+}
+
+.card1{
+    border-radius: 10px;
+    border: 0px;
+    padding: 20px;
+    margin: auto;     /*تعليق من جميع الاتجاهات*/
+    margin: 0px;
+    justify-content: center;
+     display: flex; /* جنب بعض*/
+         color: rgb(3, 2, 2);
+
+
+}
+img {
+border-radius: 80px;
+margin-bottom: 10px;
+border: none;
+
+}
+
+.name{
+   color: rgb(206, 39, 39);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size:medium;
+letter-spacing: o.6px;
+border-radius: 10ps;
+
+}
+.six{
+    color: rgb(30, 27, 27);
+    margin: 5px;
+    border-radius: 10ps;
+
+}
+.price{
+    justify-content: center;
+    border-radius: 10ps;
+
+}
+.discount{
+color: rgb(42, 4, 255);
+ justify-content: left;
+ border-radius: 20ps;
+ text-decoration: line-through;
+}
+.button{
+    color: rgb(12, 12, 13);
+    background-color: rgb(64, 43, 226);
+    width: 30%;
+    text-align: center;
+}
+
+
+.card2{
+       background-color: rgb(191, 212, 212);
+    border: solid 1px rgb(137, 226, 43);
+    border-radius: 8px;
+    padding: 20px;
+    margin: auto;     /*تعليق من جميع الاتجاهات*/
+    width: 300px;
+    margin: 30px;
+    gap: 10px;
+}
+article {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+.img-fluid{
+cursor: all-scroll;
+    justify-content:center;
+
+}
